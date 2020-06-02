@@ -1,7 +1,10 @@
 #include <Servo.h>
 
 float d1,d2,d,angle;
-int trigpin=5,echopin=6;
+
+int trigpin1 = 5,echopin1 = 6;
+int trigpin2 = 10, echopin2 = 11;
+
 Servo myservo;  
 
 int pos = 0;    
